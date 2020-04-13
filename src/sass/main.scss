@@ -1,0 +1,373 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import 'base.scss';
+
+// font-family: 'Titillium Web', sans-serif;
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* /////////// FIRST /////////////// */
+.first {
+  background-color: #87509c;
+  padding-top: 60px;
+  padding-bottom: 150px;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__site-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.header__link {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: #643a79;
+    border-radius: 3px;
+  }
+}
+
+.hero {
+  margin-top: 145px;
+}
+
+.hero__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #f7f3ea;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero__link {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  width: 295px;
+  height: 65px;
+  background-color: #eb7d4b;
+  border-radius: 5px;
+  margin-left: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    transition: transform 250ms linear;
+  }
+}
+
+/* ///////////////// SECOND ////////////////// */
+
+.second {
+  background-color: #17c2a4;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.second__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.second__description {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second__item {
+  align-items: center;
+  justify-content: center;
+}
+
+.second__item--title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+
+  margin: 0;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.second__item--description {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+  max-width: 190px;
+  margin: 0;
+  padding: 0;
+}
+
+// third          /////////////////////
+
+.third {
+  background-color: #e7f1f8;
+  padding-top: 125px;
+  padding-bottom: 130px;
+}
+
+.thirt__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  color: #3c4761;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.thirt__description {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3c4761;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.thirt__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thirt__item:not(:last-child) {
+  margin-right: 82px;
+}
+
+.thirt__item--title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  color: #3c4761;
+
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.thirt__item--descriptipn-1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  color: #48c1e9;
+  text-align: center;
+}
+
+.thirt__item--description-2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  color: #3c4761;
+  text-align: center;
+}
+
+// fourth //////////////
+
+.fourth {
+  padding-top: 120px;
+  padding-bottom: 125px;
+}
+
+.fourth__main {
+  display: flex;
+}
+
+.fourth__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  color: #3c4761;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fourth__description {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3c4761;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.fourth__item:not(:last-child) {
+  margin-right: 120px;
+}
+
+.fourth__item--title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  color: #3c4761;
+
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+// ////////////
+
+.fifth {
+  background-color: #ffdd99;
+  padding-top: 120px;
+  padding-bottom: 115px;
+}
+
+.fifth__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  color: #3c4761;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fifth__description {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3c4761;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.fifth__main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.main-1__item--link {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  color: #3c4761;
+  background-color: #ebc985;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+  }
+}
+
+.fifth__link {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  width: 295px;
+  height: 65px;
+  background-color: #17c2a4;
+  border-radius: 5px;
+  margin-left: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    transition: transform 250ms linear;
+  }
+}
+
+.main-1__item--link:not(:last-child) {
+  margin-right: 10px;
+}
+
+// .main-1__item:not(:lust-child) {
+//   margin-right: 10px;
+// }
+
+.fifth__main-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-2__item {
+  width: calc(50% - 30px);
+  list-style: none;
+  margin-right: 60px;
+  margin-bottom: 70px;
+}
+
+.main-2__item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.main-2__item:nth-child(2n) {
+  margin-bottom: 0px;
+}
+
+// sixth ///////////////////////////////////////////////////
+
+.sixth {
+  padding-top: 120px;
+  padding-bottom: 130px;
+  background-color: #d74680;
+}
